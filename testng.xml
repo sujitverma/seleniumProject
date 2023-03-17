@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Test Automation Suit" verbose="1">
-  <test name="Automation Test">
+  <test name="Automation Test Scripts">
     <classes>
       <class name="myadt.test.testcases.myadtTest"/>
     </classes>
