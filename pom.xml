@@ -25,8 +25,8 @@
 			<version>${testng.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>igt.test.automation</groupId>
-			<artifactId>igt-test-automation-framework</artifactId>
+			<groupId>test.automation</groupId>
+			<artifactId>test-automation-framework</artifactId>
 			<version>3.0</version>
 		</dependency>
 		<dependency>
