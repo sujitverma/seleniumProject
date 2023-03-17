@@ -24,11 +24,7 @@
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>igt.test.automation</groupId>
-			<artifactId>igt-test-automation-framework</artifactId>
-			<version>3.0</version>
-		</dependency>
+		
 		<dependency>
             <groupId>org.apache.maven.surefire</groupId>
             <artifactId>surefire-testng</artifactId>
