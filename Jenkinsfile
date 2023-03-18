@@ -10,11 +10,6 @@ pipeline {
             steps {
                 build 'Core-Framework'
             }
-            post {
-                success {
-                    archiveArtifacts 'target/*.jar'
-                }
-            }
         }
         stage('Test') {
             steps {
