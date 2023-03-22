@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 git url: 'https://github.com/sujitverma/seleniumProject'
-                sh "mvn -Dmaven.test.failure.ignore=true clean test"
+                sh "mvn -Dmaven.test.failure.ignore=false clean test"
             }
             post {
                 always {
