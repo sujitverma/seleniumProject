@@ -11,6 +11,12 @@ pipeline {
                 build 'Core-Framework'
             }
         }
+        stage('docker-compose') {
+           steps {
+              sh "docker-compose build"
+              sh "docker-compose -f docker-compose-v3.yml up"
+           }
+       }
         stage('Test') {
             steps {
                 git url: 'https://github.com/sujitverma/seleniumProject'
